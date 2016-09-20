@@ -3,7 +3,7 @@ from matplotlib import cm
 from matplotlib.ticker import LinearLocator, FormatStrFormatter
 import matplotlib.pyplot as plt
 
-
+# Simone function
 def plot_func(X,Y,Z):
 
     fig = plt.figure()
