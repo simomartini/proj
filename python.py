@@ -3,6 +3,24 @@ from matplotlib import cm
 from matplotlib.ticker import LinearLocator, FormatStrFormatter
 import matplotlib.pyplot as plt
 
+# Cosimo mod
+import numpy as np
+
+
+
+
+
+def eval_func():
+
+    X = np.arange(-5, 5, 0.25)
+    Y = np.arange(-5, 5, 0.25)
+    X, Y = np.meshgrid(X, Y)
+    R = np.sqrt(X**2 + Y**2)
+    Z = np.sin(R)
+
+    return X,Y,Z
+
+#----------------
 
 def plot_func(X,Y,Z):
 
@@ -20,3 +38,16 @@ def plot_func(X,Y,Z):
 
     plt.show()
     return
+
+#Cosimo main
+
+if __name__=="__main__":
+
+    X,Y,Z = eval_func()
+    plot_func(X,Y,Z)
+
+#-----------------
+
+
+
+
