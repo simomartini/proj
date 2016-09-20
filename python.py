@@ -20,3 +20,5 @@ def plot_func(X,Y,Z):
 
     plt.show()
     return
+
+#Cosimo main
