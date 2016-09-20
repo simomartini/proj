@@ -3,6 +3,7 @@ from matplotlib import cm
 from matplotlib.ticker import LinearLocator, FormatStrFormatter
 import matplotlib.pyplot as plt
 
+
 # Cosimo mod
 import numpy as np
 
@@ -21,6 +22,9 @@ def eval_func():
     return X,Y,Z
 
 #----------------
+
+
+# Simone function
 
 def plot_func(X,Y,Z):
 
